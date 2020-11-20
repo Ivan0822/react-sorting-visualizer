@@ -1,5 +1,7 @@
 ## Sorting Visualizer App
 
+[DEMO](https://react-sorting-visualizer.netlify.app/)
+
 ### Sorting Algorithms
 
 1. Merge Sort
