@@ -7,4 +7,9 @@ export const StyledBody = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 600px){
+        width: 90vw;
+        margin: auto;
+    }
 `

@@ -15,8 +15,8 @@ export const StyledHeader = styled.header`
         margin-right: 10rem;
     }
     button {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         background-color: #59AEE2;
         border: none;
         border-radius: 10px;
@@ -28,5 +28,15 @@ export const StyledHeader = styled.header`
     button:hover {
         background-color: white;
         color: #191D37;
+    }
+
+    @media screen and (max-width: 600px){
+        div {
+            display: flex;
+        }
+        button{
+            width: 5rem;
+            height: 3rem;
+        }
     }
 `
