@@ -1,7 +1,8 @@
 import React from 'react'
 import { StyledHeader } from './StyledHeader'
 
-const Header = ({ array, mergeSort, bubbleSort, quickSort }) => {
+const Header = ({ array, mergeSort, bubbleSort, quickSort, }) => {
+
     return (
         <StyledHeader>
             <div>

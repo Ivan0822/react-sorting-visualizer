@@ -25,6 +25,7 @@ const App = () => {
   const mergeSort = () => {
 
     const animations = getMergeSortAnimations(array)
+
     for (let i = 0; i < animations.length; i++) {
       const arrayBars = document.getElementsByTagName('section')
 
@@ -57,6 +58,7 @@ const App = () => {
   }
 
   const quickSort = () => {
+
     const animations = getQuickSortAnimations(array)
 
     for (let i = 0; i < animations.length; i++) {
@@ -103,7 +105,9 @@ const App = () => {
   }
 
   const bubbleSort = () => {
+
     const animations = getBubbleSortAnimations(array)
+
     for (let i = 0; i < animations.length; i++) {
       const arrayBars = document.getElementsByTagName('section')
 

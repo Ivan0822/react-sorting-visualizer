@@ -19,15 +19,17 @@ export const StyledHeader = styled.header`
         margin-right: 1rem;
         background-color: #59AEE2;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         height: 35px;
         font-weight: 700;
         color: white;
+        transition: ease 0.3s
     }
 
     button:hover {
         background-color: white;
         color: #191D37;
+        transition: ease 0.3s
     }
 
     @media screen and (max-width: 600px){
